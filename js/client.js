@@ -78,7 +78,7 @@ t.getAll();
 var getBadges = function (t) {
     return t.card('name')
         .then(function (cardName) {
-            console.log('We just loaded the card name for fun: ' + cardName);
+            console.log(cardName);
 
             return [{
                 // dynamic badges can have their function rerun after a set number
