@@ -76,7 +76,7 @@ t.getAll();
 
 */
 var getBadges = function (t) {
-    return t.card()
+    return t.card('data')
         .then(function (cardName) {
             console.log(cardName);
 
